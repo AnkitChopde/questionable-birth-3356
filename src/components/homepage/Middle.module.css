@@ -1,0 +1,46 @@
+
+.div{
+   
+    width:50%;
+    height:650px
+}
+.div1{
+    width:70%;
+    height:420px;
+    margin-top:18%;
+    margin-left:28%
+}
+.h3{
+    text-align:left;
+    color:#2E475D;
+    font-family:Lexend Deca, sans-serif;
+}
+.p1{
+    
+    font-size:60px;
+    width:80%;
+    margin-top:10px;
+    text-align:justify;
+    line-height:70px;
+    font-family:"Queens Medium",serif; 
+    color:#2E475D;
+}
+.p2{
+    text-align:left;
+    margin-top:20px;
+    font-family:Lexend Deca, sans-serif;
+    line-height:25px;
+    width:90%
+}
+.p3{
+    text-align:left;
+    margin-top:30px;
+    font-family:Lexend Deca, sans-serif;
+    line-height:25px;
+    width: 100%;
+    color:#2E475D;
+}
+.heading{
+    color:#2E475D;
+    font-family:Lexend Deca, sans-serif;
+}

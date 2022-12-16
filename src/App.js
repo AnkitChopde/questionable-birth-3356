@@ -1,12 +1,15 @@
 
 import './App.css';
-import Homepage from './pages/homepage/Homepage';
+import Middle from './components/homepage/Middle';
+import Navbar from './components/homepage/Navbar';
+
 
 
 function App() {
   return (
     <div className="App">
-         <Homepage/>
+        <Navbar/>
+        <Middle/>
     </div>
   );
 }
