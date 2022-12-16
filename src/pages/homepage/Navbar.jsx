@@ -1,61 +1,61 @@
 import React from 'react'
-import {Box,Menu,
-    MenuButton,
-    MenuList,
-    MenuItem,
-    Button,
-    Text,
-    Flex
-    } from "@chakra-ui/react"
-    import {ChevronDownIcon} from "@chakra-ui/icons"
-    import { FaLanguage } from 'react-icons/fa';
+import {Box,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  Spacer,
+  MenuDivider,Switch,Button,Text, HStack, Flex} from "@chakra-ui/react"
+import {FaSignLanguage} from "react-icons/fa"
+import {ChevronDownIcon} from "@chakra-ui/icons"
+import {IoMdContact} from "react-icons/io"
+import {FcSearch} from "react-icons/fc"
 const Navbar = () => {
-  return (
-    
+    return <>
     <header>
-        <Box  w="70%" d="flex" justifyContent="space-between" alignItems="center" >
-            <Box ml="18rem">
-                <Flex>
-                <Menu>
-                   {({ isOpen }) => (
-                 <>
-                 <MenuButton display="flex" _hover={{textDecoration:"underline",color:"green"}} style={{backgroundColor:"white"}} as={Button} rightIcon={<ChevronDownIcon />} 
-                 isActive={isOpen} as={Button} rightIcon={<ChevronDownIcon />}>
-               <FaLanguage/>
-                 {isOpen ? 'English' : 'Open'}
-                 </MenuButton>
-                 <MenuList>
-                 <MenuItem>Download</MenuItem>
-                 <MenuItem onClick={() => alert('Kagebunshin')}>Create a Copy</MenuItem>
-            </MenuList>
-               </>
-           )}
-         </Menu>
-                <Menu  >
-                       <MenuList>
-                       <MenuItem>English</MenuItem>
-                        <MenuItem>French</MenuItem>
-                        <MenuItem>Japanese</MenuItem>
-                        <MenuItem>Deutsch</MenuItem>
-                        <MenuItem>Espanol</MenuItem>
-                        <MenuItem>Portugese</MenuItem>
-                   </MenuList>
+        <Box d="flex" align-items="center" justifyContent="space-between" border="grey 2px solid" maxW="70%" m="auto" h="60px">
+          <Flex >
+          <Box border="grey 2px solid" maxW="50%" h="60px"  d="flex">
+            <Box mt={"4"} ml="5"><FaSignLanguage/></Box>
+              <Box mt={"-7"} ml={"-250px"} >
+               <Menu >
+                  <MenuButton bg="white" as={Button} rightIcon={<ChevronDownIcon />}>
+                      English
+                  </MenuButton>
+                  <MenuList>
+                  <MenuItem>English</MenuItem>
+                  <MenuItem>Francios</MenuItem>
+                   <MenuItem>Portugese</MenuItem>
+                  <MenuItem>deutsch</MenuItem>
+                   <MenuItem>japanese</MenuItem>
+                  </MenuList>
                 </Menu>
-                
-                <Text mt={"2"}>High Contrast</Text>
-            </Flex>
-
+              </Box>
+           <Box>
+                <Switch mt={"-65px"} ml={"-100px"} />
+                <Text as="p" mt={"-55px"} ml={"50px"} backgroundColor='white' >High Contrast</Text>
+           </Box>
+            <Box ml={"300px"} mt={"-28px"}>
+              <IoMdContact />
+              <Text mt={"-5"} mr={"-3"}>Contact Sales</Text>
             </Box>
-            
-
-            <Box>
-
-            </Box>
-
+          </Box>
+          <Spacer/>
+          <Box border="grey 2px solid" maxW="100%" h="60px"  d="flex" justifyContent="flex-end">
+             <FcSearch/>
+             <Box></Box>
+          </Box>
+          </Flex>
         </Box>
+      
+      </header> 
+    
+    </> 
 
-    </header>
-  )
+
 }
 
 export default Navbar
