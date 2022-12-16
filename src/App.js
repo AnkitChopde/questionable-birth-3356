@@ -1,7 +1,7 @@
 
 import './App.css';
-import Middle from './pages/homepage/Middle';
-import Navbar from './pages/homepage/Navbar';
+import Middle from './components/homepage/Middle';
+import Navbar from './components/homepage/Navbar';
 
 
 
