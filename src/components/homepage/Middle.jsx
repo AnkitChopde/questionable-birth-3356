@@ -1,12 +1,9 @@
-import { Box, Container,Flex,Image,ButtonGroup,Button,Heading,Grid,GridItem,
+import { Box, Container,Image,ButtonGroup,Button,Heading,Grid,GridItem,
   Center,
-  Text,
-  Stack,
   List,
   ListItem,
   ListIcon,
-  Divider,
-  useColorModeValue} from '@chakra-ui/react'
+ } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./Middle.module.css"
 import { CheckIcon } from '@chakra-ui/icons';
@@ -175,8 +172,8 @@ const Middle = () => {
 
           <Button size='md'
                   height='50px'
-                  width='150%'
-                  ml={"-10"}
+                  width='170%'
+                  ml={"-14"}
                   mt={"5"}
                   bg={"#ff5c35"}
                   color="whiteAlpha.900">
@@ -221,8 +218,8 @@ const Middle = () => {
 
           <Button size='md'
                   height='50px'
-                  width='150%'
-                  ml={"-10"}
+                  width='170%'
+                  ml={"-14"}
                   mt={"5"}
                   bg={"#ff5c35"}
                   color="whiteAlpha.900">
@@ -239,7 +236,7 @@ const Middle = () => {
              
          </div>
          <Box className={styles.p3}  ml={"3"} >
-         Content management software that’s flexible for marketers, powerful for developers,
+         Content management software thats flexible for marketers, powerful for developers,
           and gives customers a personalized, secure experience.
          </Box>
          
@@ -266,8 +263,8 @@ const Middle = () => {
 
           <Button size='md'
                   height='50px'
-                  width='150%'
-                  ml={"-10"}
+                  width='140%'
+                  ml={"-12"}
                   mt={"5"}
                   bg={"#ff5c35"}
                   color="whiteAlpha.900">
@@ -284,8 +281,9 @@ const Middle = () => {
              
          </div>
          <Box className={styles.p3}  ml={"3"} >
-         Operations software that syncs your apps, cleans and curates customer data, and automates processes — 
-         so all your systems and teams work better together.
+         Operations software that syncs your apps, cleans and curates
+          customer data, and automates processes — so all your systems and teams work better.
+
          </Box>
          
         <hr style={{marginTop:"1.5rem"}} />
@@ -311,8 +309,8 @@ const Middle = () => {
 
           <Button size='md'
                   height='50px'
-                  width='150%'
-                  ml={"-10"}
+                  width='140%'
+                  ml={"-12"}
                   mt={"5"}
                   bg={"#ff5c35"}
                   color="whiteAlpha.900">
