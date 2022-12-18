@@ -282,7 +282,7 @@ const Middle = () => {
          </div>
          <Box className={styles.p3}  ml={"3"} >
          Operations software that syncs your apps, cleans and curates
-          customer data, and automates processes — so all your systems and teams work better.
+          customer data, and automates processes, so all your systems and teams work better.
 
          </Box>
          
