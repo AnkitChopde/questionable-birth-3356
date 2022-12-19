@@ -1,17 +1,14 @@
 
 import './App.css';
-import BelowMiddle from './components/homepage/BelowMiddle';
-import Middle from './components/homepage/Middle';
-import Navbar from './components/homepage/Navbar';
 
-
+import Home from './components/homepage/Home';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-        <Middle/>
-        <BelowMiddle />
+       <Home/>
+       <AllRoutes/>
     </div>
   );
 }

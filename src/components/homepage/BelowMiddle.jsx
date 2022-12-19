@@ -35,18 +35,49 @@ const BelowMiddle =()=>{
 
           <div className={styles.below}>
           <Grid templateColumns='repeat(4, 1fr)'
-          gap={6}>
+          gap={6} color="white">
              <GridItem>
-             <Image src={styles.img11} alt='Dan Abramov' />
+                       <Image src={logos.img10} alt='Image' ml={"40%"} mt="25"/>
+                       <Heading mt="4" ml={"3"} >150+</Heading>
+                       <p style={{marginTop:"20px",fontWeight:"bold"}}>HubSpot user groups</p>
              </GridItem>
-              <GridItem w='100%' h='185px' bg='blue.500' />
-                 <GridItem w='100%' h='185px' bg='blue.500' />
-               <GridItem w='100%' h='185px' bg='blue.500' />
-               
-              <GridItem w='100%' h='185px' bg='blue.500' />
-              <GridItem w='100%' h='185px' bg='blue.500' />
-              <GridItem w='100%' h='185px' bg='blue.500' />
-              <GridItem w='100%' h='185px' bg='blue.500' />
+              <GridItem>
+                   <Image src={logos.img11} alt='Image' ml={"35%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >7M+</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>monthly visits</p>
+              </GridItem>
+              <GridItem>
+                   <Image src={logos.img12} alt='Image' ml={"27%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >463K+</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>certified professionals</p>
+              </GridItem>
+              <GridItem>
+                   <Image src={logos.img13} alt='Image' ml={"27%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >70K</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>registered attendees</p>
+              </GridItem>
+              
+              <GridItem>
+                   <Image src={logos.img14} alt='Image' ml={"2%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >1,250+</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>integrations</p>
+              </GridItem>
+              <GridItem>
+                   <Image src={logos.img15} alt='Image' ml={"45%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >6</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>languages</p>
+              </GridItem>
+              <GridItem>
+                   <Image src={logos.img16} alt='Image' ml={"40%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >3.1M+</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>social followers</p>
+              </GridItem>
+              <GridItem>
+                   <Image src={logos.img17} alt='Image' ml={"40%"} mt="25"/>
+                    <Heading mt="4" ml={"3"} >158,000+</Heading>
+                    <p style={{marginTop:"20px",fontWeight:"bold"}}>customers</p>
+              </GridItem>
+                
         </Grid>
               
           </div>
